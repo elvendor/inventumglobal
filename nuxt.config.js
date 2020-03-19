@@ -36,7 +36,7 @@ export default {
     '~/plugins/i18n',
     '~/plugins/vue-api-query',
     { src: '~plugins/ga.js' }
-    ],
+  ],
 
   /*
    ** Nuxt.js dev-modules

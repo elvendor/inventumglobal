@@ -45,9 +45,7 @@ div
 
       v-btn.search-item.button.submit(@click="search" color='white--text')
         span.label Search
-
-  //- SEARCH PARAMS
-  div {{ filters.airlines }}
+  //-div {{ filters.airlines }}
   .search-params(v-if='searchParams')
     v-spacer
     span.search-params__amount {{ hotelsAmount }}

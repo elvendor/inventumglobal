@@ -73,6 +73,7 @@ export default {
   },
   actions: {
     async populate({ commit }) {
+      //this.$axios.setBaseURL('http://api.example.com')
       let { data } = await this.$axios.get('/user/filters')
       if (data) {
         commit('SET_FILTERS', data)
